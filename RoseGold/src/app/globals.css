@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'mine';
+  src: url('./Fonts/Shabnam.woff') format('woff');
+  font-weight: 400 ;
+ 
+}
+@font-face {
+  font-family: 'mineB';
+  src: url('./Fonts/Shabnam-Bold.woff') format('woff');
+ 
+}
+@font-face {
+  font-family: 'mineNum';
+  src: url('./Fonts/Shabnam-FD.woff') format('woff');
+ 
+}
+body{
+  overflow-x: hidden;
+  font-family: 'mine';
+}
+
+.menuHover {
+  color: black !important;
+  transition: color 0.3s ease;
+}
+
+.menuHover:hover {
+  color: #35b399;
+}
+.firstt{
+  background-color: #faf7f1;
+  mix-blend-mode: multiply;
+}
+.secondd{
+  background-color: #faf7f1;
+  mix-blend-mode: multiply;
+}
+.firstt{
+  background-color: #faf7f1;
+  mix-blend-mode: multiply;
+  .secondd{
+    background-color: #faf7f1;
+    mix-blend-mode: multiply;
+  }
+}
+.slick-slide {
+  padding: 0 15px;  /* Adjust this value to control gap size */
+}
+
+.slick-list {
+  margin: 0 -15px;  /* Should match padding value above */
+}
+
+/* Optional: if you want to prevent content shrinking */
+.slick-slide > div {
+  height: 100%;
+}
+
+/* If you're using cards, add this to maintain card size */
+.slick-slide > div > div {
+  height: 100%;
+}
+.image-hover:hover {
+  filter: brightness(70%); /* Decrease brightness on hover */
+  
+}
+.image-hover2:hover {
+  filter: brightness(25%); /* Decrease brightness on hover */
+  
+}
+.p-hover:hover {
+  border-bottom: 1px solid black;
+  color: rgb(74, 74, 74);
+  /* Add border on hover */
+  }
