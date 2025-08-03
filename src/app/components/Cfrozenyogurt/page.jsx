@@ -14,6 +14,7 @@ import { addProduct } from '../../cartSlice';
 import { List, ListItem } from '@mui/material';
 import { styled } from '@mui/system';
 const CustomListItem = styled(ListItem)(({ theme }) => ({
+   textAlign:"start",
   position: 'relative',
   marginTop: '1%',
   marginBottom: "1%"

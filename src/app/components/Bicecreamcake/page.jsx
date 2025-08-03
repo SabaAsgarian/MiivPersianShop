@@ -14,6 +14,7 @@ import { addProduct } from '../../cartSlice';
 import { List, ListItem } from '@mui/material';
 import { styled } from '@mui/system';
 const CustomListItem = styled(ListItem)(({ theme }) => ({
+   textAlign:"start",
   position: 'relative',
   marginTop: '1%',
   marginBottom: "1%"
@@ -129,7 +130,13 @@ const RingsPage = () => {
              تزئینات خاص و خلاقانه، بدون کیک اسفنجی
             </Typography>
           </CustomListItem>
-         زی
+          <CustomListItem>
+            
+            <Typography variant="body2" sx={{ marginRight: 1, fontFamily: "mine", fontSize: "16px" }}>
+             تجربه‌ای متفاوت، شیک و کاملاً خاص برای مهمونی‌ها و لحظه‌های شیرین
+            </Typography>
+          </CustomListItem>
+         
           <CustomListItem>
             
             <Typography variant="body2" sx={{ marginRight: 1, fontFamily: "mine", fontSize: "16px" }}>

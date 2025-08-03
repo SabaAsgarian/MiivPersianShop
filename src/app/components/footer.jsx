@@ -80,7 +80,7 @@ export default function footer() {
                         <Stack spacing={2}  sx={{width:'100%',justifyContent:'center',alignItems:'center',backgroundColor:"white",}}>
                             <Item sx={{backgroundColor:"white"}}>
                                 <Image src={Me} alt="me" width={100} height={100} style={{borderRadius:'50%' ,backgroundColor:'#35b399'}} />
-                                <Typography variant="body1" sx={{ marginTop: 1 ,fontFamily: "mineB"}}>۱۴۰۴ - کلیه حقوق این فروشگاه برای صبا عسگریان محفوظ است</Typography>
+                                <Typography variant="body1" sx={{ marginTop: 1 ,fontFamily: "mineB",textAlign:"center"}}>۱۴۰۴ - کلیه حقوق این فروشگاه برای صبا عسگریان محفوظ است</Typography>
                               <Box sx={{display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:"white"}}>
                               <Link href='https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr'>
                                     <InstagramIcon sx={{ color: 'black', ml: '2%' }} className="green"/> {/* Set color here */}

@@ -14,6 +14,7 @@ import { addProduct } from '../../cartSlice';
 import { List, ListItem } from '@mui/material';
 import { styled } from '@mui/system';
 const CustomListItem = styled(ListItem)(({ theme }) => ({
+  textAlign:"start",
   position: 'relative',
   marginTop: '2%',
   marginBottom: "2%"
@@ -28,6 +29,7 @@ const CustomListItem = styled(ListItem)(({ theme }) => ({
   },
 }));
 const CustomListItemtwo = styled(ListItem)(({ theme }) => ({
+   textAlign:"start",
   position: 'relative',
   marginTop: '2%',
   marginBottom: "2%"
@@ -123,7 +125,7 @@ const RingsPage = () => {
           </CustomListItem>
           <CustomListItem>
             <Typography variant="body1" sx={{marginRight: 1, fontFamily: "mineB", fontSize: "16px" }}>
-              وگان رژیمی :
+              وگان رژیمی:
             </Typography>
             <Typography variant="body2" sx={{ marginRight: 1, fontFamily: "mine", fontSize: "16px" }}>
               کاملاً گیاهی، کم‌کالری، کم‌کربوهیدرات (با طعم های: توت‌فرنگی، موزوشکلات، شکلات و بادام زمینی)
