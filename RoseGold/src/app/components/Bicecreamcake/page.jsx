@@ -129,12 +129,7 @@ const RingsPage = () => {
              تزئینات خاص و خلاقانه، بدون کیک اسفنجی
             </Typography>
           </CustomListItem>
-          <CustomListItem>
-            
-            <Typography variant="body2" sx={{ marginRight: 1, fontFamily: "mine", fontSize: "16px" }}>
-             تجربه‌ای متفاوت، شیک و کاملاً خاص برای مهمونی‌ها و لحظه‌های شیرین
-            </Typography>
-          </CustomListItem>
+         زی
           <CustomListItem>
             
             <Typography variant="body2" sx={{ marginRight: 1, fontFamily: "mine", fontSize: "16px" }}>
