@@ -120,9 +120,9 @@ function Responsive() {
                 <Box sx={{ width: 290, height: 100, mt: 1 }}>
                   <Skeleton />
                   <Skeleton animation="wave" />
-                  <Skeleton animation={false} />
+                  
                 </Box>
-                <Skeleton variant="rectangular" width={290} height={40} sx={{ mt: 1, borderRadius: '4px' }} />
+   
               </Box>
             </div>
           ))
