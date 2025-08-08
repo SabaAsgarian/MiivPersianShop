@@ -311,7 +311,7 @@ export default function Page() {
         {/* عنوان - کاملاً سمت راست */}
         <Box sx={{ width: "88%", alignSelf: "flex-end" }}>
           <Box sx={{ width: '80px', height: '2px', backgroundColor: 'black',mb: 1 }} />
-          <Box sx={{ fontWeight: 'bold', color: 'black', fontSize: '25px' }}>
+          <Box sx={{ fontFamily: "mineB", color: 'black', fontSize: '25px' }}>
             جدیدترین ها
           </Box>
         </Box>
@@ -331,7 +331,7 @@ export default function Page() {
         {/* عنوان - کاملاً سمت راست */}
         <Box sx={{ width: "88%", alignSelf: "flex-end" }}>
           <Box sx={{ width: '80px', height: '2px', backgroundColor: 'black',mb: 1 }} />
-          <Box sx={{ fontWeight: 'bold', color: 'black', fontSize: '25px' }}>
+          <Box sx={{ fontFamily: "mineB", color: 'black', fontSize: '25px' }}>
             پرفروش ترین ها
           </Box>
         </Box>

@@ -93,20 +93,24 @@ function Responsive() {
     slidesToScroll: 4,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: { slidesToShow: 3, slidesToScroll: 3 },
-      },
-      {
-        breakpoint: 900,
-        settings: { slidesToShow: 2, slidesToScroll: 2 },
-      },
-      {
-        breakpoint: 600,
-        settings: { slidesToShow: 1, slidesToScroll: 1 },
-      },
-    ],
+      responsive: [
+    {
+      breakpoint: 1536, // below xl
+      settings: { slidesToShow: 3, slidesToScroll: 3 },
+    },
+    {
+      breakpoint: 1200, // below lg
+      settings: { slidesToShow: 2, slidesToScroll: 2 },
+    },
+    {
+      breakpoint: 900, // below md
+      settings: { slidesToShow: 1, slidesToScroll: 1 },
+    },
+    {
+      breakpoint: 600, // below sm
+      settings: { slidesToShow: 1, slidesToScroll: 1 },
+    },
+  ],
   };
 
   return (

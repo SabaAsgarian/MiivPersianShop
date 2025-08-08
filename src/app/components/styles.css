@@ -56,21 +56,24 @@ body {
   mix-blend-mode: multiply;
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  font-size: 15px !important; /* تغییر واقعی اندازه آیکون فلش */
-}
-
 .swiper-button-next,
 .swiper-button-prev {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 50% !important;
+  background-color: white !important;
   color: black !important;
-  background-color: white;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 15px !important;
+  line-height: 1 !important;
 }
 
 
