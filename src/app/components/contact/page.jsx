@@ -112,7 +112,8 @@ const RingsPage = () => {
                       </Typography>
                          <Link href='mailto:sabaasgariandev@gmail.com'>
                       <Typography variant="body2" sx={{ marginRight: 1, fontFamily: "mine", fontSize: "16px" }}>
-                        sabaasgariandev@gmail.com
+                        
+                        SABAASGARIANDEV@GMAIL.COM
                       </Typography>
                       </Link>
                     </CustomListItem>
@@ -120,9 +121,10 @@ const RingsPage = () => {
                       <Typography variant="body1" sx={{marginRight: 1, fontFamily: "mineB", fontSize: "16px" }}>
                       سایت شخصی  : 
                       </Typography>
-                      <Link href="https://sabaasgarian.site/" target='_blank'>
+                      <Link href="https://sabaasgarian.space/" target='_blank'>
                       <Typography variant="body2" sx={{ marginRight: 1, fontFamily: "mine", fontSize: "16px" }}>
-                       https://sabaasgarian.site
+                     
+                       HTTPS://SABAASGARIAN.SPACE
                       </Typography>
                       </Link>
                     </CustomListItem>
